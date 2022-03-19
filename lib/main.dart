@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:video_and_audio_player/screens/my_home_page.dart';
+import 'package:video_and_audio_player/route/m_route.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(),
+      initialRoute: '/home',
+      onGenerateRoute: (s) => MyRoute.generateRoute(s),
     );
   }
 }
