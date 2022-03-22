@@ -5,4 +5,6 @@ class ConstColor {
   static const Color textColor = Colors.black;
   static const Color red = Colors.red;
   static const Color black = Colors.black;
+  static const Color invisible = Colors.transparent;
+  static const Color grey = Colors.grey;
 }

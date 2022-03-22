@@ -3,6 +3,7 @@ import 'package:video_and_audio_player/screens/my_home_page.dart';
 
 class MyRoute {
   static generateRoute(RouteSettings s) {
+    // ignore: unused_local_variable
     var args = s.arguments;
     switch (s.name) {
       case '/home':
